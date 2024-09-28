@@ -1,5 +1,5 @@
 ### Ex - 06 : Information Retrieval Using Vector Space Model in Python
-### Date : 21-09-2024
+### Date : 28-09-2024
 ### AIM: To implement Information Retrieval Using Vector Space Model in Python.
 ### Description: 
 <div align = "justify">
@@ -15,8 +15,7 @@ sklearn to demonstrate Information Retrieval using the Vector Space Model.
 5. Execute a sample query and display the search results along with similarity scores.
 
 ### Program:
-
-```python
+```
 import requests
 from bs4 import BeautifulSoup
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -84,8 +83,17 @@ highest_rank_score = max(result[1] for result in search_results)
 print("The highest rank cosine score is:", highest_rank_score)
 
 ```
+
+
+
+
+
+
+
+
 ### Output:
-![image](https://github.com/user-attachments/assets/0928f1a1-ea3b-46f0-a4e2-f498d6262d6d)
+![image](https://github.com/user-attachments/assets/f6a38c59-feab-44bd-aea5-6b41027c315c)
+
 
 
 
